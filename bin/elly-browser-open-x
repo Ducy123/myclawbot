@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -euo pipefail
+/root/.openclaw/workspace/bin/elly-worker 'export DISPLAY=:1; google-chrome --no-sandbox https://x.com >/tmp/worker-chrome.log 2>&1 &'

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -euo pipefail
+/root/.openclaw/workspace/bin/elly-worker 'echo ===SERVICE===; systemctl is-active browser-worker.service; echo ===PROCS===; pgrep -a Xvfb || true; pgrep -a openbox || true; pgrep -a x11vnc || true; pgrep -a websockify || true; pgrep -a chrome || true'
