@@ -47,3 +47,10 @@
 - Imported from user-provided archive: `api-gateway-1.0.69`
 - Note: cleaned `SKILL.md` frontmatter to match OpenClaw skill spec.
 - Mirror stored in repo at `skills/api-gateway/`.
+
+## x-algorithm
+- Installed path: `/root/.openclaw/skills/x-algorithm`
+- Purpose: X/Twitter algorithm rules, viral strategy, timing, reply strategy, hooks, and no-link best practices for improving reach and engagement.
+- Imported from user-provided files (`README.md`, `SKILL.md`, `_meta.json`, `package.json`).
+- Note: cleaned `SKILL.md` frontmatter to match OpenClaw skill spec; runtime install keeps the essential skill files while imported source mirror retains the full package metadata.
+- Mirror stored in repo at `skills/x-algorithm/` and `imported-skills/x-algorithm/`.
