@@ -33,3 +33,10 @@
 - Imported from user-provided archive: `humanizer-1.0.0`
 - Note: cleaned `SKILL.md` frontmatter to match OpenClaw skill spec and removed extra `README.md` from the packaged import.
 - Mirror stored in repo at `skills/humanizer/`.
+
+## nano-banana-pro
+- Installed path: `/root/.openclaw/skills/nano-banana-pro`
+- Purpose: generate and edit images with Nano Banana Pro / Gemini 3 Pro Image.
+- Imported from user-provided archive: `nano-banana-pro-1.0.1`
+- Note: adapted bundled examples from `~/.codex/skills/...` paths to the actual OpenClaw skill path `/root/.openclaw/skills/nano-banana-pro/...`.
+- Mirror stored in repo at `skills/nano-banana-pro/`.
