@@ -16,12 +16,13 @@ Operate Bybit mainnet for Ducy under strict risk control and concise reporting.
 - Max leverage: 125x ceiling, not default
 - Market scope: unrestricted
 - Reporting style: short, results-first, no long explanations
-- Notify in chat immediately when:
+- Do NOT send scan/status messages when there is no action
+- Notify in chat immediately only when:
   - opening a trade
   - setting/changing SL or TP
   - closing a trade
-  - canceling a setup
-  - important risk/state changes
+  - canceling an order/setup after taking a concrete action
+  - important risk/state changes that require user awareness or intervention
 
 ## Trading Constraints
 - No revenge trading
