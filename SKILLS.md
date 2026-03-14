@@ -12,3 +12,10 @@
 - Purpose: discover/install skills when the user asks for capabilities or wants an existing skill for a task.
 - Imported from user-provided archive: `find-skills-0.1.0`
 - Mirror stored in repo at `skills/find-skills/`.
+
+## gog
+- Installed path: `/root/.openclaw/skills/gog`
+- Purpose: use the `gog` CLI for Google Workspace workflows across Gmail, Calendar, Drive, Contacts, Sheets, and Docs.
+- Imported from user-provided archive: `gog-1.0.0`
+- Note: cleaned `SKILL.md` frontmatter to match OpenClaw skill spec.
+- Mirror stored in repo at `skills/gog/`.
