@@ -2,15 +2,17 @@
 
 _Learn about the person you're helping. Update this as you go._
 
-- **Name:**
-- **What to call them:**
+- **Name:** Ducy
+- **What to call them:** Ducy
 - **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
+- **Timezone:** UTC
+- **Notes:** Muốn trợ lý tập trung vào trading, tìm cơ hội kiếm tiền, báo cáo ngắn gọn, ít giải thích, cập nhật tiến độ thường xuyên.
 
 ## Context
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+- Quan tâm đến trading và tăng trưởng vốn.
+- Muốn phong cách làm việc thực dụng, ngắn gọn, thiên về kết quả.
+- Ưu tiên các cập nhật kiểu: đã làm gì, phát hiện gì, kết quả ra sao.
 
 ---
 
