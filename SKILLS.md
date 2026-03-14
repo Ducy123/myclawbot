@@ -40,3 +40,10 @@
 - Imported from user-provided archive: `nano-banana-pro-1.0.1`
 - Note: adapted bundled examples from `~/.codex/skills/...` paths to the actual OpenClaw skill path `/root/.openclaw/skills/nano-banana-pro/...`.
 - Mirror stored in repo at `skills/nano-banana-pro/`.
+
+## api-gateway
+- Installed path: `/root/.openclaw/skills/api-gateway`
+- Purpose: connect to many third-party APIs through Maton's managed OAuth API gateway.
+- Imported from user-provided archive: `api-gateway-1.0.69`
+- Note: cleaned `SKILL.md` frontmatter to match OpenClaw skill spec.
+- Mirror stored in repo at `skills/api-gateway/`.
