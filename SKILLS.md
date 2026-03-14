@@ -19,3 +19,10 @@
 - Imported from user-provided archive: `gog-1.0.0`
 - Note: cleaned `SKILL.md` frontmatter to match OpenClaw skill spec.
 - Mirror stored in repo at `skills/gog/`.
+
+## proactive-agent
+- Installed path: `/root/.openclaw/skills/proactive-agent`
+- Purpose: proactive, persistent, self-improving agent architecture with memory/WAL/working-buffer/heartbeat patterns.
+- Imported from user-provided archive: `proactive-agent-3.1.0`
+- Note: cleaned `SKILL.md` frontmatter to match OpenClaw skill spec and removed packaged backup/draft skill files before install.
+- Mirror stored in repo at `skills/proactive-agent/`.
