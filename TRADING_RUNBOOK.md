@@ -13,7 +13,7 @@ Operate Bybit mainnet for Ducy under strict risk control and concise reporting.
 - Live trading: authorized
 - Max account usage: account may be used, but do NOT all-in a single trade
 - Risk per trade: 5 USDT max loss at stop
-- Max leverage: 125x ceiling, not default
+- Max leverage: 125x ceiling; may use high leverage up to 125x when setup confidence is high, while still capping stop-loss risk near 5 USDT
 - Market scope: unrestricted
 - Reporting style: short, results-first, no long explanations
 - Do NOT send scan/status messages when there is no action
