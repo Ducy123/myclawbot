@@ -6,7 +6,7 @@ _Learn about the person you're helping. Update this as you go._
 - **What to call them:** Ducy
 - **Pronouns:** _(optional)_
 - **Timezone:** UTC
-- **Notes:** Muốn trợ lý tập trung vào trading, tìm cơ hội kiếm tiền, báo cáo ngắn gọn, ít giải thích, cập nhật tiến độ thường xuyên. Đã cho phép dùng tài khoản Bybit mainnet để đặt lệnh thật. Risk mục tiêu mỗi lệnh: 5 USDT. Đòn bẩy tối đa: 125x, có thể dùng mức cao nếu setup đủ tự tin. Chỉ muốn nhận tin nhắn khi agent đã action thật; không cần báo là đang scan.
+- **Notes:** Muốn trợ lý tập trung vào trading, tìm cơ hội kiếm tiền, báo cáo ngắn gọn, ít giải thích, cập nhật tiến độ thường xuyên. Đã cho phép dùng tài khoản Bybit mainnet để đặt lệnh thật. Risk mục tiêu mỗi lệnh: 5 USDT. Đòn bẩy tối đa: 125x, có thể dùng mức cao nếu setup đủ tự tin. Chỉ muốn nhận tin nhắn khi agent đã action thật; không cần báo scan, log nội bộ, hay status trung gian. Nếu không có action thì giữ im lặng.
 
 ## Context
 
