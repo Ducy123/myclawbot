@@ -1,0 +1,21 @@
+# OpenClaw runtime / secrets
+.openclaw/
+.env
+.env.*
+*.log
+tmp/
+cache/
+
+# SSH / auth / browser session
+.ssh/
+.config/google-chrome/
+.config/chromium/
+.config/BraveSoftware/
+
+# Python / Node junk
+__pycache__/
+*.pyc
+node_modules/
+
+# OS/editor
+.DS_Store
