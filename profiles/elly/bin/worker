@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ssh -i /root/.ssh/elly_worker -p 27301 -o StrictHostKeyChecking=accept-new root@157.10.53.238 "$@"

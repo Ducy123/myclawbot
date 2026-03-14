@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+TEXT=${1:-}
+if [ -z "$TEXT" ]; then
+  echo "usage: $0 <text>" >&2
+  exit 1
+fi
+ESCAPED=$(printf '%q' "$TEXT")
+/root/.openclaw/workspace-elly/bin/worker "export DISPLAY=:1; xdotool search --onlyvisible --class google-chrome windowactivate --sync type --delay 12 --clearmodifiers -- $ESCAPED"

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -euo pipefail
+/root/.openclaw/workspace-elly/bin/worker '/root/open-x.sh'

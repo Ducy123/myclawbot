@@ -19,3 +19,13 @@ node_modules/
 
 # OS/editor
 .DS_Store
+
+# Operational screenshots / captures
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Machine-specific mirrored state
+profiles/**/.openclaw/
+skills/**/.learnings/

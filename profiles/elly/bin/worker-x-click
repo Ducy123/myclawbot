@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+X=${1:-}
+Y=${2:-}
+BTN=${3:-1}
+if [ -z "$X" ] || [ -z "$Y" ]; then
+  echo "usage: $0 <x> <y> [button]" >&2
+  exit 1
+fi
+/root/.openclaw/workspace-elly/bin/worker "export DISPLAY=:1; xdotool search --onlyvisible --class google-chrome windowactivate --sync mousemove --window %1 $X $Y click $BTN"

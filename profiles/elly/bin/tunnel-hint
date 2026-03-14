@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+echo 'Run on your local computer:'
+echo 'ssh -L 6080:127.0.0.1:6080 -p 27301 root@157.10.53.238'
+echo 'Then open: http://127.0.0.1:6080/vnc.html'

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+OUT=${1:-/tmp/worker-shot.png}
+/root/.openclaw/workspace-elly/bin/worker "export DISPLAY=:1; scrot '$OUT'; ls -lh '$OUT'"

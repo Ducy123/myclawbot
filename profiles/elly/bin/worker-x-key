@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+KEYS=${*:-}
+if [ -z "$KEYS" ]; then
+  echo "usage: $0 <xdotool-key-sequence>" >&2
+  exit 1
+fi
+/root/.openclaw/workspace-elly/bin/worker "export DISPLAY=:1; xdotool search --onlyvisible --class google-chrome windowactivate --sync key --clearmodifiers $KEYS"

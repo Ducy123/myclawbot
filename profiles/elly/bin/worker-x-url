@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+URL=${1:-https://x.com}
+/root/.openclaw/workspace-elly/bin/worker "export DISPLAY=:1; xdotool search --onlyvisible --class google-chrome windowactivate --sync key --clearmodifiers ctrl+l; sleep 0.2; xdotool type --delay 8 --clearmodifiers -- '$URL'; xdotool key Return"
