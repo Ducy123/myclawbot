@@ -1,0 +1,17 @@
+{
+  "embedding_model": "text-embedding-3-small",
+  "vector_db": "chroma",
+  "chroma_path": "/root/.openclaw/workspace/vectorstore/chroma",
+  "default_collection": "ducy_knowledge_v1",
+  "chunk": {
+    "target_chars": 2800,
+    "overlap_chars": 400,
+    "min_chars": 500
+  },
+  "collections": {
+    "memory": "ducy_memory_v1",
+    "docs": "ducy_docs_v1",
+    "skills": "ducy_skills_v1",
+    "elly": "elly_knowledge_v1"
+  }
+}

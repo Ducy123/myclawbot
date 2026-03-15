@@ -1,0 +1,17 @@
+#!/bin/sh
+set -eu
+
+cd /root/.openclaw/workspace
+
+msg=${1:-"Daily workspace sync"}
+branch=$(git rev-parse --abbrev-ref HEAD)
+
+git add -A
+
+if git diff --cached --quiet; then
+  echo "No changes to commit."
+  exit 0
+fi
+
+git commit -m "$msg"
+git push origin "$branch"

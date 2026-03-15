@@ -16,6 +16,8 @@ cache/
 __pycache__/
 *.pyc
 node_modules/
+.venv/
+**/.venv/
 
 # OS/editor
 .DS_Store

@@ -1,0 +1,21 @@
+include:
+  - memory/*.md
+  - .learnings/*.md
+  - WORKER.md
+  - ELLY_HANDOFF.md
+  - REPO_LAYOUT.md
+  - SKILLS.md
+  - skills/*/SKILL.md
+  - profiles/elly/*.md
+  - profiles/elly/playbooks/*.md
+exclude:
+  - .git/**
+  - .openclaw/**
+  - '**/*.png'
+  - '**/*.jpg'
+  - '**/*.jpeg'
+  - '**/*.webp'
+  - '**/*.log'
+  - '**/.env*'
+  - '**/node_modules/**'
+  - '**/__pycache__/**'
