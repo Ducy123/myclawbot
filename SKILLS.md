@@ -54,3 +54,9 @@
 - Imported from user-provided files (`README.md`, `SKILL.md`, `_meta.json`, `package.json`).
 - Note: cleaned `SKILL.md` frontmatter to match OpenClaw skill spec; runtime install keeps the essential skill files while imported source mirror retains the full package metadata.
 - Mirror stored in repo at `skills/x-algorithm/` and `imported-skills/x-algorithm/`.
+
+## zalo-ops
+- Installed path: `/root/.openclaw/skills/zalo-ops`
+- Purpose: set up, debug, and operate Zalo integrations for OpenClaw, including Zalo Bot API, webhooks, and `zalo`/`zalouser` troubleshooting.
+- Created locally as a custom skill for this workspace.
+- Mirror stored in repo at `skills/zalo-ops/`.
